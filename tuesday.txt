@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Pastries</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Section 1: Header -->
+    <header class="header">
+      <div class="left-content">
+        <div class="logo">
+          <img src="logo.jpeg" width="50px" />Esther Pastry
+        </div>
+
+        <h1>Welcome to <br />Delicious Pastries</h1>
+        <p>
+          Discover the best pastries, cookies, and cakes that bring joy to every
+          <br />
+          moment. Explore our selection and sign up to stay updated on our<br />
+          latest offers.
+        </p>
+        <button class="signup-button">Sign Up</button>
+      </div>
+      <div class="right-content">
+        <nav class="nav-menu">
+          <a href="#home">Koumba</a>
+          <a href="#about">Esther</a>
+          <a href="#contact">25714</a>
+        </nav>
+        <div class="header-image">
+          <img src="pict.jpeg" alt="Pastry Image" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Section 2: Gallery -->
+    <section class="gallery">
+      <h2>Our Delicious Offerings</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="cookies.jpeg" width="190px" height="264px" alt="Cookies" />
+          <p>Delicious Cookies</p>
+        </div>
+        <div class="gallery-item">
+          <img src="cupcakes.jpeg" alt="Cupcakes" />
+          <p>Sweet Cupcakes</p>
+        </div>
+        <div class="gallery-item">
+          <img src="cake.jpeg" alt="Cakes" />
+          <p>Delightful Cakes</p>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="fresh pastries.jpeg"
+            width="220px"
+            height="264px"
+            alt="Pastries "
+          />
+          <p>Fresh Pastries</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Quote -->
+    <section class="quote">
+      <blockquote>
+        Baking is both an art and a science that<br />
+        brings happiness with every bite.
+        <p class="author">— Sarah, Pastry Chef</p>
+      </blockquote>
+    </section>
+    <section class="cta-section">
+      <div class="cta-div">
+        <p class="cta-text">Call to action! It’s time!</p>
+        <p class="cta-subtext">
+          Sign up for our product by clicking that button right over there!
+        </p>
+        <button class="cta-button">Sign up</button>
+      </div>
+    </section>
+
+    <section>
+      <footer>
+        <p>Copyright @ The odin Project 2021</p>
+      </footer>
+    </section>
+  </body>
+</html>
